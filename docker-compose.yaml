@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dicom-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./images:/go/src/app/images
+    ports:
+      - "8080:8080"
