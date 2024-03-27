@@ -18,7 +18,6 @@ curl -i -X POST -F "file=@images/raw/XRAY/DICOM/PA000001/ST000001/SE000001/IM000
 MRI
 ```
 curl -i -X POST -F "file=@images/raw/MRI/PA000001/ST000001/SE000001/IM000001" http://localhost:8080/v1/upload
-
 ```
 
 ## Extract
